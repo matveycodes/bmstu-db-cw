@@ -1,1 +1,11 @@
+\usepackage{etoolbox}
+
+% Отключение выравнивания по ширине для содержания
+\makeatletter
+\patchcmd{\@dottedtocline}
+  {\rightskip\@tocrmarg}
+  {\rightskip\@tocrmarg plus 4em \hyphenpenalty\@M}
+  {}{}
+\makeatother
+
 \bibliography{bibliography}
