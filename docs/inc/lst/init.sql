@@ -4,6 +4,8 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 CREATE TYPE user_status AS ENUM ('pending', 'active', 'blocked');
 
+CREATE TYPE user_role AS ENUM ('customer', 'technician', 'supporter', 'admin');
+
 CREATE DOMAIN phone_number AS TEXT CHECK (VALUE ~ '^[+]7[0-9]{10}$');
 
 CREATE TABLE IF NOT EXISTS users (
@@ -15,34 +17,8 @@ CREATE TABLE IF NOT EXISTS users (
     last_name varchar(256),
     email citext,
     phone phone_number UNIQUE NOT NULL,
-    birthdate date CHECK (birthdate > '1930-01-01')
-);
-
-CREATE TABLE IF NOT EXISTS supports (
-    id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
-    middle_name varchar(256) NOT NULL,
-    first_name varchar(256) NOT NULL,
-    last_name varchar(256) NOT NULL,
-    email citext NOT NULL,
-    phone phone_number UNIQUE NOT NULL
-);
-
-CREATE TABLE IF NOT EXISTS technicians (
-    id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
-    middle_name varchar(256) NOT NULL,
-    first_name varchar(256) NOT NULL,
-    last_name varchar(256) NOT NULL,
-    email citext NOT NULL,
-    phone phone_number UNIQUE NOT NULL
-);
-
-CREATE TABLE IF NOT EXISTS admins (
-    id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
-    middle_name varchar(256) NOT NULL,
-    first_name varchar(256) NOT NULL,
-    last_name varchar(256) NOT NULL,
-    email citext NOT NULL,
-    phone phone_number UNIQUE NOT NULL
+    birthdate date CHECK (birthdate > '1930-01-01'),
+    role user_role NOT NULL DEFAULT 'customer'
 );
 
 CREATE TABLE IF NOT EXISTS scooter_manufacturers (
