@@ -75,7 +75,7 @@ CREATE TABLE IF NOT EXISTS bookings (
     user_id uuid NOT NULL REFERENCES users(id),
     scooter_id uuid NOT NULL REFERENCES scooters(id),
     date_started timestamp NOT NULL DEFAULT now(),
-    date_finished timestamp CHECK (date_finished > date_started)
+    date_finished timestamp NOT NULL CHECK (date_finished > date_started)
 );
 
 CREATE TABLE IF NOT EXISTS parkings (
@@ -106,4 +106,12 @@ CREATE TABLE IF NOT EXISTS auth_tokens (
 CREATE TABLE IF NOT EXISTS settings (
     name varchar(64) UNIQUE NOT NULL,
     value text NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS chat_messages (
+    id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
+    sender_id uuid NOT NULL REFERENCES users(id),
+    recipient_id uuid NOT NULL REFERENCES users(id),
+    content text NOT NULL,
+    date_sent timestamp NOT NULL DEFAULT now()
 );
