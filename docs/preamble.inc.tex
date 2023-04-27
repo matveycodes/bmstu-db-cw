@@ -1,5 +1,7 @@
 \usepackage{etoolbox}
 \usepackage{upquote}
+\PassOptionsToPackage{factor=2000}{microtype}
+\usepackage{csquotes}
 
 % Отключение выравнивания по ширине для содержания
 \makeatletter
@@ -18,19 +20,19 @@
 \globaldefs1
 \makeatletter
 \renewrobustcmd{\texttt}[1]{%
-   {%
-   \everyeof{\noexpand}\endlinechar-1
-   \expandafter\catcode\string``=\active
-   \expandafter\catcode\string`'=\active
-   \let'\textquotesingle
-   \let`\textasciigrave
-   \ifx\encodingdefault\upquote@OTone
-    \ifx\ttdefault\upquote@cmtt
-     \def'{\char13 }\def`{\char18 }%
-    \fi
-   \fi
-   \scantokens{\originaltexttt{#1}}%
-   }%
+	{%
+			\everyeof{\noexpand}\endlinechar-1
+			\expandafter\catcode\string``=\active
+			\expandafter\catcode\string`'=\active
+			\let'\textquotesingle
+			\let`\textasciigrave
+			\ifx\encodingdefault\upquote@OTone
+				\ifx\ttdefault\upquote@cmtt
+					\def'{\char13 }\def`{\char18 }%
+				\fi
+			\fi
+			\scantokens{\originaltexttt{#1}}%
+		}%
 }%
 \endgroup
 

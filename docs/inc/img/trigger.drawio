@@ -1,1 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2023-03-26T18:58:02.792Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="N8-XPEgjCHTKi-O0OpEj" version="21.0.8" type="device"><diagram name="Страница 1" id="ejpkXvqlyKvUXjdlBo89">5VpLc5swEP41HOsB8fTRxE7bafqYyaHNUQYF1GLkEXJs+usrkATCYJemSajTi0ZarVbS7n4fSGDYV5vDWwq36UcSo8wAZnww7KUBgAcsXlaCUghsby4ECcWxEFmt4Bb/RFJoSukOx6joKDJCMoa3XWFE8hxFrCODlJJ9V+2eZN1ZtzBBPcFtBLO+9CuOWSqkAfBb+TuEk1TNbKn9baBSljspUhiTvSayV4Z9RQlhorY5XKGs8p3yixh3faK3WRhFORsz4PApMr2b8h1bf17uy/1i5bz/8MaS+yhYqXaMYu4A2SSUpSQhOcxWrTSkZJfHqDJr8larc0PIlgstLvyOGCtlNOGOES5K2SaTveiA2bdq+MyVrTutZ3mQlutGqTW+IIo3iCGqZDmjpWaoat7pfa2puqVsiT1XGz3pSykqyI5G6JwDZU5CmiB2Rg80EedIQYTvgpZ8HEUZZPihuw4oczZp9Nqw8oqM7J9EWdh9gNlOzmRwP8yXVRmaBvd84Ks6L8O6XPUyo2CU/GhgYHVjytN7W+ltDklFBLP7jOyjFFI24/Ha4BwywsMW7lPM0O0W1k7dc80mHA+IMnQ4H5C+A+UAGzhiSNmlj32LWcv3hCzV8OqZz+Vy72KANT2IwEgQuVOCCAyD6FqCRQKHQ8nWABXUdVCXfFqBLx1r15qaJetSTdi0VFPgVNTduhT4dbReVykHciJgqgU0M1oaxsW8Xl2GtSdzBrOil7rdxBzCsJaEcF2QbMfQgkYyUWtp23IquuhxybOwwOQ04FwKDTwhnJ2RcPamhLMzDOeVBlhHg1IoIdz26iAFGgYfB3ZLw7WvhE7PbDhkFqixYlW8DHosISa9fi3IBsHkyHYvBdn/wAPeHckIzpSM4P5DjCBeI3hzoSnrA5daKWa01Vu7bnnVXWpjZHCRDWWEr4ssrPnkZGG/drKoW8fn8ydkEG8kg/hTMoj3+yOCo6DePyKc4otFF8nNEF977FuaEdAlgvN0IwA/V8rgNH3Y3UkHOUizI95W2leblUaRC2nklfCL7U/OL2bPly/BL4/lCslLlsZKLUeNv/57QnrxR9JLMCW9WCfu8dQxYSgFbuAaZUfAyXCS83rEvVT5MqzAgCOYLWTHBsexyBBU4J9wXdurHL4lOGf1rtzQcJfn0CTv4+Vgo7kF14NzJpVPYu+NOQtc4HYPA6I1OgjS+JdqN60VEdt2BLm/L3guHAetWdJfxBFczNvAE166P/cbwlgIz6eEsD+M4Jd5xHsZ90u4pryWVLXu0/noSKOuEEBz3mjOJOp4YPdPCI/8RBCjCBeY5C/3gcDxpn5mB8OpcBRL/cq3CX//VrmJjaMND4dugfSg/sdnRFddDct8cF1n5k6cEfPfk8NSy4X+F6YL+kDnuc+HP95sP6uLh3b7b4K9+gU=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-27T17:31:50.449Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="8UpUxD8Q7kkE5-gKhtBd" version="21.2.2" type="device">
+  <diagram name="Страница 1" id="ejpkXvqlyKvUXjdlBo89">
+    <mxGraphModel dx="753" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xNc06LyHtbODwywAE4IK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xNc06LyHtbODwywAE4IK-1" target="xNc06LyHtbODwywAE4IK-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-1" value="Начало" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="324" y="10" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xNc06LyHtbODwywAE4IK-2" target="xNc06LyHtbODwywAE4IK-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-2" value="Получить записи об арендах из таблицы rentals" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="324" y="100" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="xNc06LyHtbODwywAE4IK-4" target="xNc06LyHtbODwywAE4IK-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-4" value="Отфильтровать записи без даты завершения" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="324" y="280" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xNc06LyHtbODwywAE4IK-5" target="xNc06LyHtbODwywAE4IK-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-5" value="Отфильтровать записи указанного пользователя" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="324" y="190" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xNc06LyHtbODwywAE4IK-6" target="xNc06LyHtbODwywAE4IK-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-6" value="Подсчитать количество записей в полученной выборке" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="324" y="370" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="xNc06LyHtbODwywAE4IK-7" target="xNc06LyHtbODwywAE4IK-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-11" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xNc06LyHtbODwywAE4IK-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.8525" y="2" relative="1" as="geometry">
+            <mxPoint x="7" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOsZAmCAi2c3o4FHfemE-1" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xNc06LyHtbODwywAE4IK-10">
+          <mxGeometry x="-0.8525" y="2" relative="1" as="geometry">
+            <mxPoint x="-80" y="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xNc06LyHtbODwywAE4IK-7" target="xNc06LyHtbODwywAE4IK-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-7" value="Количество записей&lt;br&gt;больше нуля?" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="324" y="460" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gOsZAmCAi2c3o4FHfemE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="590" as="sourcePoint" />
+            <mxPoint x="412" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-8" value="Запретить удаление пользователя" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="530" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNc06LyHtbODwywAE4IK-9" value="Конец" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="324" y="650" width="176" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
