@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS scooters (
     id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
     model_id uuid NOT NULL REFERENCES scooter_models(id),
     status scooter_status NOT NULL DEFAULT 'disabled',
-    number varchar(8) NOT NULL
+    number varchar(8) UNIQUE NOT NULL
 );
 
 CREATE TYPE scooter_lock_state AS ENUM ('locked', 'unlocked');
