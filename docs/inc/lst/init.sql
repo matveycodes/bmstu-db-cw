@@ -4,7 +4,7 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 CREATE TYPE user_status AS ENUM ('pending', 'active', 'blocked');
 
-CREATE TYPE user_role AS ENUM ('customer', 'technician', 'admin');
+CREATE TYPE user_role AS ENUM ('customer', 'admin');
 
 CREATE DOMAIN phone_number AS TEXT CHECK (VALUE ~ '^7[0-9]{10}$');
 
