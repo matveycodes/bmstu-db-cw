@@ -43,7 +43,6 @@ CREATE TABLE IF NOT EXISTS scooters (
     id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
     model_id uuid NOT NULL REFERENCES scooter_models(id),
     status scooter_status NOT NULL DEFAULT 'disabled',
-    image_link text,
     number varchar(8) NOT NULL
 );
 
