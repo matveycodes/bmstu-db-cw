@@ -1,7 +1,15 @@
 \usepackage{etoolbox}
 \usepackage{upquote}
-\PassOptionsToPackage{factor=2000}{microtype}
 \usepackage{csquotes}
+\usepackage{stmaryrd}
+\usepackage{xurl}
+\usepackage{multirow}
+\usepackage{threeparttablex}
+
+% Сноски в threeparttable меньшего размера
+\appto\TPTnoteSettings{\footnotesize}
+
+\PassOptionsToPackage{factor=2000}{microtype}
 
 % Отключение выравнивания по ширине для содержания
 \makeatletter
@@ -35,5 +43,3 @@
 		}%
 }%
 \endgroup
-
-\bibliography{bibliography}
