@@ -1,6 +1,6 @@
 \chapter{Конструкторский раздел}
 
-В данном разделе будет спроектирована база данных, которая требуется для реализации поставленной задачи, и описаны её ограничения. Также будет описана используемая ролевая модель.
+В данном разделе будет спроектирована база данных, которая требуется для реализации поставленной задачи, и описаны ее ограничения. Также будет описана используемая ролевая модель.
 
 \section{Диаграмма проектируемой базы данных}
 
@@ -52,7 +52,7 @@
 
 \begin{enumerate}
 	\item id --- уникальный идентификатор пользователя. Тип: UUID.
-	\item status --- статус пользователя. Тип: строка. Может принимать одно из трёх
+	\item status --- статус пользователя. Тип: строка. Может принимать одно из трех
 	      возможных значений: \enquote{pending} (ожидающий: возраст или не указан, или
 	      имеет недопустимое значение), \enquote{active} (активный) и \enquote{blocked}
 	      (заблокированный).
@@ -232,11 +232,11 @@
 
 Значение столбца id является первичным ключом. Не может быть пустым. По умолчанию заполняется случайным UUID.
 
-Значение столбца status может принимать одно из трёх значений: \enquote{pending}, \enquote{active}, \enquote{blocked}. Не может быть пустым. По умолчанию заполняется значением \enquote{pending}.
+Значение столбца status может принимать одно из трех значений: \enquote{pending}, \enquote{active}, \enquote{blocked}. Не может быть пустым. По умолчанию заполняется значением \enquote{pending}.
 
 Значение столбца date\_joined не может быть пустым. По умолчанию заполняется отметкой текущего времени. Дата должна быть позже, чем дата рождения (birthdate).
 
-Значение столбца phone должно быть уникальным в пределах таблицы. Не может быть пустым. Должно иметь формат 7NNNNNNNNNN, где N --- целое число от 0 до 9.
+Значение столбца phone должно быть уникальным в пределах таблицы. Не может быть пустым. Должно иметь формат 7$NNNNNNNNNN$, где $N$ --- целое число от 0 до 9.
 
 Значение столбца birthdate должно быть позже 1 января 1930 г.
 
@@ -383,35 +383,35 @@
 					| >{\centering\arraybackslash}c |
 				}
 				\hline
-				                         & \textbf{Чтение} & \textbf{Вставка} & \textbf{Обновление} & \textbf{Удаление} \\
+				                         & \textbf{Чтение}            & \textbf{Вставка} & \textbf{Обновление}        & \textbf{Удаление} \\
 				\hline
-				auth\_tokens             & $-$             & $-$              & $-$                 & $-$               \\
+				auth\_tokens             & $-$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				bookings                 & $-$             & $-$              & $-$                 & $-$               \\
+				bookings                 & $-$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				parkings                 & $+$             & $-$              & $-$                 & $-$               \\
+				parkings                 & $+$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				pings                    & $-$             & $-$              & $-$                 & $-$               \\
+				pings                    & $-$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				purchased\_subscriptions & $-$             & $-$              & $-$                 & $-$               \\
+				purchased\_subscriptions & $-$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				rentals                  & $-$             & $-$              & $-$                 & $-$               \\
+				rentals                  & $-$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				restricted\_zones        & $+$             & $-$              & $-$                 & $-$               \\
+				restricted\_zones        & $+$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				scooter\_manufacturers   & $-$             & $-$              & $-$                 & $-$               \\
+				scooter\_manufacturers   & $-$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				scooter\_models          & $-$             & $-$              & $-$                 & $-$               \\
+				scooter\_models          & $-$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				scooters                 & $-$             & $-$              & $-$                 & $-$               \\
+				scooters                 & $-$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				settings                 & $-$             & $-$              & $-$                 & $-$               \\
+				settings                 & $-$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				subscriptions            & $-$             & $-$              & $-$                 & $-$               \\
+				subscriptions            & $-$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				totp                     & $-$             & $-$              & $-$                 & $-$               \\
+				totp                     & $-$                        & $-$              & $-$                        & $-$               \\
 				\hline
-				users                    & $+$\tnote{1}    & $-$              & $+$\tnote{1}        & $-$               \\
+				users                    & $+$\rlap{\rlap{\tnote{1}}} & $-$              & $+$\rlap{\rlap{\tnote{1}}} & $-$               \\
 				\hline
 			\end{tabularx}}
 		\begin{tablenotes}
@@ -434,35 +434,35 @@
 					| >{\centering\arraybackslash}c |
 				}
 				\hline
-				                         & \textbf{Чтение} & \textbf{Вставка} & \textbf{Обновление} & \textbf{Удаление} \\
+				                         & \textbf{Чтение}     & \textbf{Вставка} & \textbf{Обновление} & \textbf{Удаление} \\
 				\hline
-				auth\_tokens             & $-$             & $-$              & $-$                 & $-$               \\
+				auth\_tokens             & $-$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				bookings                 & $+$\tnote{1}    & $+$              & $+$\tnote{1}        & $-$               \\
+				bookings                 & $+$\rlap{\tnote{1}} & $+$              & $+$\rlap{\tnote{1}} & $-$               \\
 				\hline
-				parkings                 & $+$             & $-$              & $-$                 & $-$               \\
+				parkings                 & $+$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				pings                    & $+$\tnote{2}    & $-$              & $-$                 & $-$               \\
+				pings                    & $+$\rlap{\tnote{2}} & $-$              & $-$                 & $-$               \\
 				\hline
-				purchased\_subscriptions & $+$\tnote{3}    & $+$              & $-$                 & $-$               \\
+				purchased\_subscriptions & $+$\rlap{\tnote{3}} & $+$              & $-$                 & $-$               \\
 				\hline
-				rentals                  & $+$\tnote{4}    & $+$              & $+$\tnote{4}        & $-$               \\
+				rentals                  & $+$\rlap{\tnote{4}} & $+$              & $+$\rlap{\tnote{4}} & $-$               \\
 				\hline
-				restricted\_zones        & $+$             & $-$              & $-$                 & $-$               \\
+				restricted\_zones        & $+$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				scooter\_manufacturers   & $+$             & $-$              & $-$                 & $-$               \\
+				scooter\_manufacturers   & $+$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				scooter\_models          & $+$             & $-$              & $-$                 & $-$               \\
+				scooter\_models          & $+$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				scooters                 & $+$\tnote{5}    & $-$              & $-$                 & $-$               \\
+				scooters                 & $+$\rlap{\tnote{5}} & $-$              & $-$                 & $-$               \\
 				\hline
-				settings                 & $-$             & $-$              & $-$                 & $-$               \\
+				settings                 & $-$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				subscriptions            & $+$             & $-$              & $-$                 & $-$               \\
+				subscriptions            & $+$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				totp                     & $-$             & $-$              & $-$                 & $-$               \\
+				totp                     & $-$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				users                    & $+$\tnote{6}    & $-$              & $+$\tnote{6}        & $-$               \\
+				users                    & $+$\rlap{\tnote{6}} & $-$              & $+$\rlap{\tnote{6}} & $-$               \\
 				\hline
 			\end{tabularx}}
 		\begin{tablenotes}
@@ -490,35 +490,35 @@
 					| >{\centering\arraybackslash}c |
 				}
 				\hline
-				                         & \textbf{Чтение} & \textbf{Вставка} & \textbf{Обновление} & \textbf{Удаление} \\
+				                         & \textbf{Чтение}     & \textbf{Вставка} & \textbf{Обновление} & \textbf{Удаление} \\
 				\hline
-				auth\_tokens             & $-$             & $-$              & $-$                 & $-$               \\
+				auth\_tokens             & $-$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				bookings                 & $-$             & $-$              & $-$                 & $-$               \\
+				bookings                 & $-$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				parkings                 & $+$             & $-$              & $-$                 & $-$               \\
+				parkings                 & $+$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				pings                    & $+$\tnote{1}    & $-$              & $-$                 & $-$               \\
+				pings                    & $+$\rlap{\tnote{1}} & $-$              & $-$                 & $-$               \\
 				\hline
-				purchased\_subscriptions & $-$             & $-$              & $-$                 & $-$               \\
+				purchased\_subscriptions & $-$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				rentals                  & $-$             & $-$              & $-$                 & $-$               \\
+				rentals                  & $-$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				restricted\_zones        & $+$             & $-$              & $-$                 & $-$               \\
+				restricted\_zones        & $+$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				scooter\_manufacturers   & $-$             & $-$              & $-$                 & $-$               \\
+				scooter\_manufacturers   & $-$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				scooter\_models          & $-$             & $-$              & $-$                 & $-$               \\
+				scooter\_models          & $-$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				scooters                 & $+$             & $-$              & $-$                 & $-$               \\
+				scooters                 & $+$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				settings                 & $-$             & $-$              & $-$                 & $-$               \\
+				settings                 & $-$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				subscriptions            & $-$             & $-$              & $-$                 & $-$               \\
+				subscriptions            & $-$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				totp                     & $-$             & $-$              & $-$                 & $-$               \\
+				totp                     & $-$                 & $-$              & $-$                 & $-$               \\
 				\hline
-				users                    & $+$\tnote{2}    & $-$              & $+$\tnote{2}        & $-$               \\
+				users                    & $+$\rlap{\tnote{2}} & $-$              & $+$\rlap{\tnote{2}} & $-$               \\
 				\hline
 			\end{tabularx}}
 		\begin{tablenotes}
