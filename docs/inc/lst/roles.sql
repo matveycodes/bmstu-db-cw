@@ -39,7 +39,7 @@ CREATE POLICY select_discharged_pings
 ON pings FOR SELECT TO technician
 USING (
     EXISTS (
-        SELECT 1 FROM  (
+        SELECT 1 FROM (
             SELECT DISTINCT ON (scooter_id) * FROM pings
             ORDER BY scooter_id, date DESC
         ) T
