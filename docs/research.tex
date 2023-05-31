@@ -55,11 +55,11 @@
                 | >{\hsize=.2\hsize\centering\arraybackslash}X |
             }
             \hline
-            \multirow{2}{.3\linewidth}{\centering Количество строк таблицы pings} & \multicolumn{2}{c|}{Время выполнения запроса, мс} & \multirow{2}*{Ускорение}                                                                     \\   \cline{2-3}
-                                                                                  & {Без индексации}                                  & С индексацией                       &
+            \multirow{2}{.3\linewidth}{\centering\textbf{Количество строк таблицы pings}} & \multicolumn{2}{c|}{\textbf{Время выполнения запроса, мс}} & \multirow{2}*{\textbf{Ускорение}}                                                            \\   \cline{2-3}
+                                                                                          & {\textbf{Без индексации}}                                  & \textbf{С индексацией}              &
             \DTLforeach*{benchmark}{\Count=count,\TimeNoIndex=ms_noindex,\TimeIndex=ms_index,\Profit=profit}{
             \\ \hline
-            \num[round-precision=0]{\Count}                                       & \num[round-precision=3]{\TimeNoIndex}             & \num[round-precision=3]{\TimeIndex} & ${\scriptstyle\times}$\num[round-precision=0]{\Profit}
+            \num[round-precision=0]{\Count}                                               & \num[round-precision=3]{\TimeNoIndex}                      & \num[round-precision=3]{\TimeIndex} & ${\scriptstyle\times}$\num[round-precision=0]{\Profit}
             }
             \\\hline
         \end{tabularx}   }
