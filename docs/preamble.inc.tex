@@ -5,8 +5,25 @@
 \usepackage{xurl}
 \usepackage{multirow}
 \usepackage{threeparttablex}
+\usepackage{pgfplots}
+\usepackage{microtype}
+\usepackage{csvsimple}
+\usepackage{siunitx}
+\usepackage{datatool}
+\usepackage{enumitem}
 
-\PassOptionsToPackage{factor=2000}{microtype}
+\definecolor{badcolor}{HTML}{FF4136}
+\definecolor{goodcolor}{HTML}{2ECC40}
+
+\sisetup{output-decimal-marker = {,}, round-mode=places}
+
+% Нумерация русскими буквами
+\makeatletter
+\AddEnumerateCounter{\asbuk}{\russian@alph}{щ}
+\makeatother
+
+\setlist[itemize,1]{label={---}}
+\setlist[enumerate,2]{label={\asbuk*)}}
 
 % Отключение выравнивания по ширине для содержания
 \makeatletter
@@ -15,6 +32,25 @@
 {\rightskip\@tocrmarg plus 4em \hyphenpenalty\@M}
 {}{}
 \makeatother
+
+% Позволяет устанавливать легенду
+\pgfplotsset{
+	legend entry/.initial=,
+	every axis plot post/.code={%
+			\pgfkeysgetvalue{/pgfplots/legend entry}\tempValue
+			\ifx\tempValue\empty
+				\pgfkeysalso{/pgfplots/forget plot}%
+			\else
+				\expandafter\addlegendentry\expandafter{\tempValue}%
+			\fi
+		},
+}
+
+% Позволяет выводить один 0 на две оси
+\pgfplotsset{compat=1.12}
+\pgfplotsset{ignore zero/.style={%
+			#1ticklabel={\ifdim\tick pt=0pt \else\pgfmathprintnumber{\tick}\fi}
+		}}
 
 % Прямые кавычки в коде
 \robustify{\texttt}
