@@ -1,0 +1,30 @@
+\documentclass{bmstu}
+
+\input{preamble.inc.tex}
+
+\begin{document}
+
+\setcounter{page}{3}
+
+\include{essay}
+
+\maketableofcontents
+
+\include{abstract}
+\include{analysis}
+\include{design}
+\include{technology}
+\include{research}
+\include{conclusion}
+
+\begin{appendices}
+    \include{apdx-init}
+    \include{apdx-roles}
+    \include{apdx-trigger}
+    \include{apdx-sample-data}
+    \include{apdx-research}
+\end{appendices}
+
+\include{bibliography}
+
+\end{document}
