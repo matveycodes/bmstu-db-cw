@@ -4,7 +4,16 @@
 
 \begin{document}
 
-\includepdf[pages=-, fitpaper=true]{title.pdf}
+\makecourseworktitle
+{Информатика, искусственный интеллект и системы управления}
+{Программное обеспечение ЭВМ и информационные технологии}
+{Разработка базы данных сервиса краткосрочной аренды городских электросамокатов}
+{Котцов~М.~Д./ИУ7-65Б}
+{Филиппов~М.~В.}
+{}
+
+\setcounter{page}{3}
+
 \include{essay}
 
 \maketableofcontents
@@ -19,7 +28,6 @@
 \begin{appendices}
     \include{apdx-init}
     \include{apdx-roles}
-    \include{apdx-trigger}
     \include{apdx-sample-data}
     \include{apdx-research}
 \end{appendices}
