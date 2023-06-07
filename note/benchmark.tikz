@@ -1,0 +1,19 @@
+\begin{tikzpicture}[font=\small]
+    \begin{axis}[
+        xmin=0,
+        ymin=0,
+        xlabel={Количество строк, шт.},
+        ylabel={Время выполнения запроса, мс},
+        ignore zero=y,
+        grid=both,
+        smooth,
+        legend style={
+            at={(0.025,0.975)},
+            anchor=north west,
+        },
+        legend cell align={left},
+    ]
+        \addplot [color=black, mark=*, very thick, legend entry={Без индексации}] table [x=count, y=ms_noindex, col sep=comma] {inc/data/benchmark.csv};
+        \addplot [color=black, mark=o, very thick, legend entry={С индексацией}] table [x=count, y=ms_index, col sep=comma] {inc/data/benchmark.csv};
+    \end{axis}
+\end{tikzpicture}

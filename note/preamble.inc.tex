@@ -11,12 +11,10 @@
 \usepackage{siunitx}
 \usepackage{datatool}
 \usepackage{enumitem}
-\usepackage{pdfpages}
-
-\definecolor{badcolor}{HTML}{FF4136}
-\definecolor{goodcolor}{HTML}{2ECC40}
 
 \sisetup{output-decimal-marker = {,}, round-mode=places}
+
+\pgfkeys{/pgf/number format/.cd,1000 sep={\,}}
 
 % Нумерация русскими буквами
 \makeatletter
