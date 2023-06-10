@@ -1,0 +1,10 @@
+export { createAuthRouter } from "./auth";
+export { createBookingRouter } from "./booking";
+export { createParkingRouter } from "./parking";
+export { createUserRouter } from "./user";
+export { createRentalRouter } from "./rental";
+export { createScooterRouter } from "./scooter";
+export { createRestrictedZoneRouter } from "./restricted-zone";
+export { createTariffRouter } from "./tariff";
+export { createSettingRouter } from "./setting";
+export { createSubscriptionRouter } from "./subscription";
