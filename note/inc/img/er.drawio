@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-03T11:53:09.095Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="nqA7udAiAGBsXgknXHxW" version="21.3.7" type="device">
+<mxfile host="app.diagrams.net" modified="2023-06-09T18:16:27.216Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YFhOVSkuAFgxsE4titSU" version="21.3.8" type="device">
   <diagram name="Страница 1" id="1fZUuVgu8hJn7vZOcelm">
-    <mxGraphModel dx="1949" dy="1901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="2021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
         <mxCell id="aLUWIl0fzYMnbTUpbonb-4" value="Зона ограничения скорости" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="aLUWIl0fzYMnbTUpbonb-101" vertex="1">
           <mxGeometry x="-13" y="140" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLUWIl0fzYMnbTUpbonb-81" value="Гео-координаты" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" parent="aLUWIl0fzYMnbTUpbonb-101" vertex="1">
+        <mxCell id="aLUWIl0fzYMnbTUpbonb-81" value="Географические&lt;br&gt;координаты" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" parent="aLUWIl0fzYMnbTUpbonb-101" vertex="1">
           <mxGeometry x="-3" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLUWIl0fzYMnbTUpbonb-84" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" parent="aLUWIl0fzYMnbTUpbonb-101" source="aLUWIl0fzYMnbTUpbonb-4" target="aLUWIl0fzYMnbTUpbonb-81" edge="1">
@@ -113,7 +113,7 @@
             <mxPoint y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLUWIl0fzYMnbTUpbonb-127" value="Геолокация" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" parent="aLUWIl0fzYMnbTUpbonb-134" vertex="1">
+        <mxCell id="aLUWIl0fzYMnbTUpbonb-127" value="Географические координаты" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" parent="aLUWIl0fzYMnbTUpbonb-134" vertex="1">
           <mxGeometry x="10" y="100" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLUWIl0fzYMnbTUpbonb-131" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" parent="aLUWIl0fzYMnbTUpbonb-134" target="aLUWIl0fzYMnbTUpbonb-127" edge="1">
@@ -198,7 +198,7 @@
         <mxCell id="aLUWIl0fzYMnbTUpbonb-3" value="Парковка" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="aLUWIl0fzYMnbTUpbonb-162" vertex="1">
           <mxGeometry y="100" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLUWIl0fzYMnbTUpbonb-76" value="Геолокация" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" parent="aLUWIl0fzYMnbTUpbonb-162" vertex="1">
+        <mxCell id="aLUWIl0fzYMnbTUpbonb-76" value="Географические координаты" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" parent="aLUWIl0fzYMnbTUpbonb-162" vertex="1">
           <mxGeometry x="10" y="50" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aLUWIl0fzYMnbTUpbonb-78" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" parent="aLUWIl0fzYMnbTUpbonb-162" source="aLUWIl0fzYMnbTUpbonb-3" target="aLUWIl0fzYMnbTUpbonb-76" edge="1">
@@ -389,7 +389,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AA1Bn7bmUUII2A3ySsHL-4" value="Пробег на &lt;br&gt;одном заряде" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" parent="AA1Bn7bmUUII2A3ySsHL-15" vertex="1">
+        <mxCell id="AA1Bn7bmUUII2A3ySsHL-4" value="Запас хода" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" parent="AA1Bn7bmUUII2A3ySsHL-15" vertex="1">
           <mxGeometry x="10" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AA1Bn7bmUUII2A3ySsHL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=12;" parent="AA1Bn7bmUUII2A3ySsHL-15" source="AA1Bn7bmUUII2A3ySsHL-2" target="AA1Bn7bmUUII2A3ySsHL-4" edge="1">
@@ -699,10 +699,10 @@
           <mxGeometry x="551" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X0gcdEhsvJMtpot3MTze-25" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="615" y="483" width="30" height="30" as="geometry" />
+          <mxGeometry x="586" y="483" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0gcdEhsvJMtpot3MTze-26" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="616" y="573" width="30" height="30" as="geometry" />
+          <mxGeometry x="586" y="573" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0gcdEhsvJMtpot3MTze-28" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="680" y="90" width="30" height="30" as="geometry" />
@@ -711,7 +711,7 @@
           <mxGeometry x="521" y="90" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0gcdEhsvJMtpot3MTze-30" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="616" y="-30" width="30" height="30" as="geometry" />
+          <mxGeometry x="586" y="-30" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0gcdEhsvJMtpot3MTze-31" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="521" width="30" height="30" as="geometry" />
@@ -729,16 +729,16 @@
           <mxGeometry x="315" y="490" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0gcdEhsvJMtpot3MTze-39" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="185" y="400" width="30" height="30" as="geometry" />
+          <mxGeometry x="155" y="400" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0gcdEhsvJMtpot3MTze-40" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="185" y="490" width="30" height="30" as="geometry" />
+          <mxGeometry x="155" y="490" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0gcdEhsvJMtpot3MTze-43" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-110" y="503" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0gcdEhsvJMtpot3MTze-44" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-174" y="473" width="30" height="30" as="geometry" />
+          <mxGeometry x="-205" y="473" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0gcdEhsvJMtpot3MTze-46" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="305" y="-250" width="30" height="30" as="geometry" />
@@ -765,7 +765,7 @@
           <mxGeometry x="-202" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0gcdEhsvJMtpot3MTze-55" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="465" y="483" width="30" height="30" as="geometry" />
+          <mxGeometry x="435" y="483" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0gcdEhsvJMtpot3MTze-56" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="370" y="513" width="30" height="30" as="geometry" />
@@ -822,7 +822,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XsANBCVRZROw7te_pvmT-15" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;glass=0;spacing=2;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="15" y="563" width="30" height="30" as="geometry" />
+          <mxGeometry x="-15" y="563" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
